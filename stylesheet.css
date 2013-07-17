@@ -1,0 +1,555 @@
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+background:transparent;
+border:0;
+font-size:100%;
+margin:0;
+outline:0;
+padding:0;
+vertical-align:baseline;
+}
+
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {
+display:block;
+}
+
+ul,dl {
+list-style:none;
+}
+
+
+a {
+background:none;
+color:#f07057;
+text-decoration:none;
+}
+
+html,body {
+margin:0;
+padding:0;
+}
+
+img,audio,video,canvas {
+max-width:100%;
+}
+
+
+
+
+
+/*--------------------------------------------------------
+Resets
+--------------------------------------------------------*/
+html, body {
+	height: 100%;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*--------------------------------------------------------
+BEGIN THEME STYLESHEET
+--------------------------------------------------------*/
+
+
+a, a:visited, a:hover {
+	outline: none;
+}
+body {
+ 	background: #d4d4d4; 
+	font: 13px/1.5 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: #515A5F;
+	width: 100%;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	overflow-x: hidden;
+}
+
+
+header{
+background-color: #000;
+}
+
+
+
+
+/*--------------------------------------------------------
+/* TYPOGRAPHY
+--------------------------------------------------------*/
+
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 56px;
+	text-transform: uppercase;
+	position: relative;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+h2 {
+	font-family: 'futura', sans-serif;
+	font-size: 44px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 44px;
+}
+h4 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+}
+h5 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+h6 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+}
+
+
+
+
+header h3{
+	font-size: 24px;
+	font-family: 'lucida grande' sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+text-align: center;
+color: #fff;
+line-height: 40px;
+/*text-shadow: 0px 3px 0px #b2a98f,
+             0px 4px 10px rgba(0,0,0,0.15),
+             0px 14px 2px rgba(0,0,0,0.1),
+             0px 20px 30px rgba(0,0,0,0.1), 
+         0px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05)*/;
+}
+
+
+
+
+
+header p {
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 14px;
+	line-height: 1.2;
+	padding: 0;
+	margin-top: -15px;
+	position: relative;
+	z-index: 1;
+	font-weight: 600;
+	color: red;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/*--------------------------------------------------------
+/* MENU STYLING
+--------------------------------------------------------*/
+
+nav {
+	width: 100%;
+	position: relative;
+	padding-top: 5px;
+	
+}
+div.header{
+	width: 960px;
+	margin: 0 auto;
+	padding: 5px 0px 5px 0px;
+}
+
+section.description{
+	background-color: white;
+}
+
+section.description article{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+
+
+section.description article h2{
+		font-family: 'Oswald', sans-serif;
+	font-size: 44px;
+
+
+}
+
+section.description article p{
+font-family: 'Source Code Pro', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	position: relative;
+	margin-bottom: 20px;
+	font-weight: 500;
+	line-height: 1.2em;
+
+}
+
+section.bottomquote{
+background-color: #FFD600;
+}
+
+section.bottomquote article{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+
+section.bottomquote article h4{
+font-family: 'oswald', sans-serif;
+	font-size: 56px;
+	font-weight: 800;
+	line-height: 1.2em;
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+	letter-spacing: 2px;
+	text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	HOME 1 STYLING
+/*-----------------------------------------------------------------------------------*/
+
+
+.pagewrap{
+width: 100%
+}
+
+
+.fullwidth {
+	width: 100%;
+	padding: 50px 0 20px;
+	margin: 30px 0;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	height: auto;
+}
+
+section.topquote{
+width: 100%;
+background: url(fullback1.jpg) no-repeat;
+background-size: cover;
+
+}
+
+article.quote{
+	width: 780px;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	
+}
+
+
+article.quote h2{
+font-family: 'Oswald', sans-serif;
+font-weight: 900;
+	font-size: 76px;
+	line-height: 1.3em;
+	color: #000;
+	text-transform: uppercase;
+	position: relative;
+	font-weight: 600;
+	text-align: center;
+	text-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+}
+
+article p{
+
+}
+
+
+
+
+/*--------------------------------------------------------
+/* PARALLAX STYLING
+--------------------------------------------------------*/
+.parallax {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+/* 	background: #69fffb; */
+	color: #ffffff;
+	z-index:0;
+	background-image:url(../images/backgrounds/fullback1.jpg) no-repeat;
+	background-size: cover;
+
+}
+
+
+.parallax .container {
+	display: table;
+	overflow:hidden;
+}
+
+.parallax-content {
+	width: 700px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	overflow:hidden;
+	margin: 100px;
+}
+
+
+.parallax-bg {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: absolute;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+	background-position: top center;
+}
+
+
+
+
+
+footer {
+background:#000;
+border-top:1px solid #bcbcbc;
+/* margin-top:120px; */
+padding-top:20px;
+width:100%;
+}
+
+.footer-logo {
+display:block;
+margin:0 auto;
+width:32.8125%;
+}
+
+.footer-logo img {
+margin-bottom:40px;
+}
+
+
+
+p.legal {
+color:#fff;
+padding-bottom:20px;
+margin:5px;
+text-align:center;
+font-size: 14px;
+font-family: 'lucida grande' sans-serif;
+font-weight: 400;
+}
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Columns
+/*-----------------------------------------------------------------------------------*/
+.one_half {
+	width: 48%;
+}
+.one_third {
+	width: 30.66%;
+}
+.two_third {
+	width: 65.33%;
+}
+.one_fourth {
+	width: 22%;
+}
+.three_fourth {
+	width: 74%;
+}
+.one_fifth {
+	width: 16.8%;
+}
+.two_fifth {
+	width: 37.6%;
+}
+.three_fifth {
+	width: 58.4%;
+}
+.four_fifth {
+	width: 67.2%;
+}
+.one_sixth {
+	width: 13.33%;
+}
+.five_sixth {
+	width: 82.67%;
+}
+.one_half.no-margin {
+	width: 50%;
+	margin-right: 0
+}
+.one_third.no-margin {
+	width: 33.33333333333%;
+	margin-right: 0
+}
+.two_third.no-margin {
+	width: 66.66666666667%;
+	margin-right: 0
+}
+.one_fourth.no-margin {
+	width: 25%;
+	margin-right: 0
+}
+.three_fourth.no-margin {
+	width: 75%;
+	margin-right: 0
+}
+.one_fifth.no-margin {
+	width: 20%;
+	margin-right: 0
+}
+.two_fifth.no-margin {
+	width: 40%;
+	margin-right: 0
+}
+.three_fifth.no-margin {
+	width: 60%;
+	margin-right: 0
+}
+.four_fifth.no-margin {
+	width: 80%;
+	margin-right: 0
+}
+.one_sixth.no-margin {
+	width: 16.6666666666667%;
+	margin-right: 0
+}
+.five_sixth.no-margin {
+	width: 83.333333333333%;
+	margin-right: 0
+}
+.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+	position: relative;
+	margin-right: 4%;
+	margin-bottom: 30px;
+	float: left;
+}
+.last {
+	margin-right: 0 !important;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+/*  BACK TO TOP BUTTON
+/* ------------------------------------------------------------------------ */
+
+
+
+
+/*--------------------------------------------------------
+/* alightment
+--------------------------------------------------------*/
+
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.alignleft {
+	text-align: left;
+}
+.alignright {
+	text-align: right;
+}
+.aligncenter {
+	text-align: center;
+	display: block;
+}
+
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
