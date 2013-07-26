@@ -195,7 +195,7 @@ nav {
 }
 div.header{
 	width: 90%;
-	max-width:1000px;
+	max-width:960px;
 	margin: 0 auto;
 	padding: 5px 0px 5px 0px;
 }
@@ -237,7 +237,7 @@ background-color: #FFD600;
 
 section.bottomquote article{
 		width: 90%px;
-	max-width: 1000px;
+	max-width: 960px;
 	margin: 0 auto;
 	padding-top: 120px;
 	padding-bottom: 120px;
@@ -308,7 +308,7 @@ width: 100%
 
 .container{
 	width: 90%;
-	max-width: 1000px;
+	max-width: 960px;
 	margin: 0 auto;
 	height: auto;
 }
@@ -323,7 +323,7 @@ height: 400px;
 
 article.quote{
 		width: 90%;
-	max-width: 1000px;
+	max-width: 960px;
 	margin: 0 auto;
 	
 	
